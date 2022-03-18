@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="author" content="2172036 Frangky Hernandez">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Juan Tuandali / 2172034">
+    <title>Soal 1</title>
+</head>
+<body>
+    <script>
+        
+        let mawar = prompt("Berapa mawar yang ingin dibeli? (Rp 5000)")
+        let tulip = prompt("Berapa tulip yang ingin dibeli? (Rp.8000)")
+        let anggrek = prompt("Berapa anggrek yang ingin dibeli? (Rp.10000)") 
+        let uang = prompt("Uang yang dibayarkan adalah")
+        
+        let bungamawar = mawar*5000;
+        let bungatulip = tulip*8000;
+        let bungaanggrek = anggrek*10000;
+        let total = bungamawar+bungatulip+bungaanggrek;
+        let kembalian = uang - (bungamawar+bungatulip+bungaanggrek);
+
+        document.write("Anda membeli mawar sebanyak <b>" + mawar + "bunga </b> dengan harga total Rp." + bungamawar + "<br>")
+        document.write("Anda membeli tulip sebanyak <b>" + tulip + "bunga </b> dengan harga total Rp." + bungatulip + "<br>")
+        document.write("Anda membeli anggrek sebanyak <b>" + anggrek + "bunga </b> dengan harga total Rp." + bungaanggrek + "<br>")
+        document.write("Total belanjaan anda <b>Rp." + total + "</b> <br><br>")
+
+        if (uang>total) {
+            document.write("Kembalian anda adalah Rp." + kembalian )
+        }
+        else{
+            document.write("Uang anda tidak mencukupi!")          
+        }
+    </script>
+    
+</body>
+</html>
