@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(158, 149, 149);
+}
+.container{
+    border: 1px solid;
+    margin: 30px;
+    background-color: rgb(102, 102, 102);
+    box-shadow: 9px 11px 35px rgb(65, 64, 64);
+    color: rgb(255, 255, 255);
+}
+.navbar{
+    padding: 15px;
+}
+span{
+    margin: 10px;
+}
+img{
+    margin-top: 20px;
+}
+img.git{
+    width: 50px;
+    margin-left: 60px;
+}
+img.ig{
+    width: 80px;
+    margin-left: 45px;
+}
+img.linkIn{
+    width: 76px;
+    margin-left: 45px;
+}
+img.tweet{
+    width: 70px;
+    padding-left: 5px;
+    margin-left: 45px;
+}
+textarea{
+    margin-top: 30px;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+a.contact{
+    color: rgb(0, 0, 0);
+}
+#github{
+    padding-left: 20px;
+}
+a span{
+    transition: 1s;
+}
+a span:hover{
+    font-size: 30px;
+}
